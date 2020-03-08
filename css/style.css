@@ -1,0 +1,143 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color:#8D1F08;
+	font-family: 'Roboto', sans-serif;
+}
+
+#Tabla_01 {
+	background-color:#FFFFFF;
+	position:absolute;
+	left:50%;
+	top:0px;
+	width:960px;
+	height:2000px; /*1896*/
+	margin-left: -480px;
+}
+
+#cabecera {
+    /*background-color: #FFE000;*/
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:960px;
+	height:255px;
+}
+
+#navegacion {
+    background-color: #FF2D00;
+	position:absolute;
+	left:0px;
+	top:255px;
+	width:960px;
+	height:53px;
+}
+
+#seccion1 {
+    /*background-color: #00B0FF;*/
+	position:absolute;
+	left:0px;
+	top:308px;
+	width:960px;
+	height:324px;
+}
+    
+    #seccion1_slideshow {
+        /*background-color: #4F9935;*/
+        left: 0px;
+        top: 308px;
+        width:535px;
+        height: 324px;
+        float: left;
+    }
+    
+    #seccion1_historia {
+        /*background-color: #044738;*/
+        left: 535px;
+        top: 308px;
+        width:425px;
+        height: 324px;
+        float: right;
+    }
+
+#seccion2 {
+    /*background-color: #2800FF;*/
+	position:absolute;
+	left:0px;
+	top:632px;
+	width:960px;
+	height:632px;
+}
+    
+    #seccion2_titulo {
+        background-color: #75769C;
+        left:0px;
+        top:632px;
+        width:960px;
+        height:106px;
+    }
+    
+    .seccion2_gameplay {
+        width:480px;
+        height:263px;
+    }
+    
+    #seccion2_gameplay1 {
+        /*background-color: #B478C3;*/
+        left:0px;
+        top:738px;
+        float:left;
+    }
+    
+    #seccion2_gameplay2 {
+        /*background-color: #6F4977;*/
+        left:480px;
+        top:738px;
+        float:right;
+    }
+    
+    #seccion2_gameplay3 {
+        /*background-color: #6F4977;*/
+        left:0px;
+        top:1001px;
+        float:left;
+    }
+    
+    #seccion2_gameplay4 {
+        /*background-color: #B478C3;*/
+        left:480px;
+        top:1001px;
+        float:right;
+    }
+
+#seccion3 {
+    /*background-color: #D100FF;*/
+	position:absolute;
+	left:0px;
+	top:1284px;
+	width:960px;
+	height:632px;
+}
+    
+    #seccion3_titulo {
+        background-color: #DA8605;
+        left: 0px;
+        top: 1284px;
+        width: 960px;
+        height: 109px;
+    }
+    
+     #seccion3_videojuego {
+        /*background-color: #5D3F11;*/
+        left: 0px;
+        top: 1373px;
+        width: 960px;
+        height: 523px;
+    }
+
+h1 {
+	line-height: 109px;
+}
