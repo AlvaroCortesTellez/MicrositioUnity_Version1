@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<title>interfaz_mockup</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/nav.css" rel="stylesheet" type="text/css">
+<link href="css/slideshow.css" rel="stylesheet" type="text/css">
+<link href="css/historia.css" rel="stylesheet" type="text/css">
+<link href="css/galeria.css" rel="stylesheet" type="text/css">
+<link href="css/game.css" rel="stylesheet" type="text/css">
+	
+<link href="fancybox/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	
+</head>
+<body margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;>
+<div id="Tabla_01">
+	<div id="cabecera">
+		<img src="images/cabecera.jpg" width="960px" height="255px"> 
+	</div>
+	<div id="navegacion">
+		<ul>
+		    <li><a href="#seccion1">Historia</a></li>
+		    <li><a href="#seccion2">Gameplay</a></li>
+		    <li><a href="#seccion3">Videojuego</a></li>
+		</ul>
+	</div>
+	<div id="seccion1">
+		<div id="seccion1_slideshow">
+		<div id="slideshow">
+			<div class="mySlides fade">
+				<div class="numberText">1 / 3</div>
+				<img src="images/slideshow/altos_odyssey.jpg" style="width: 100%">
+				<div class="text">Altos Odyssey Game</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numberText">2 / 3</div>
+				<img src="images/slideshow/cuphead.jpg" style="width: 100%">
+				<div class="text">Cup Head Game</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numberText">3 / 3</div>
+				<img src="images/slideshow/ori_and_the_blind_forest.jpg" style="width: 100%">
+				<div class="text">Ori and the blind Forest Game</div>
+			</div>
+			<a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onClick="plusSlides(1)">&#10095;</a>
+		</div>
+		<div style="text-align:center" id="div_top">
+			<span class="dot" onClick="currentSlide(1)"></span>
+			<span class="dot" onClick="currentSlide(2)"></span>
+			<span class="dot" onClick="currentSlide(3)"></span>
+		</div>
+	</div>
+		<div id="seccion1_historia">
+			<iframe src="iframe_texto.html" id="iframe_texto"></iframe>
+		</div>
+	</div>
+	<div id="seccion2">
+		<div id="seccion2_titulo" class="seccion2_gameplay">
+			<h1>Planetary Defence - Gameplay</h1>
+		</div>
+		<div id="seccion2_gameplay1" class="seccion2_gameplay">
+			<a data-fancybox="images" data-width="850" data-height="478" href="images/originales_lightbox/gameplay_1.jpg"><img src="images/miniaturas_lightbox/gameplay_1.jpg" class="imagen_gameplay"></a>
+		</div>
+		<div id="seccion2_gameplay2" class="seccion2_gameplay">
+			<a data-fancybox="images" data-width="850" data-height="478" href="images/originales_lightbox/gameplay_2.jpg"><img src="images/miniaturas_lightbox/gameplay_2.jpg" class="imagen_gameplay"></a>
+		</div>
+		<div id="seccion2_gameplay3" class="seccion2_gameplay">
+			<a data-fancybox="images" data-width="850" data-height="478" href="images/originales_lightbox/gameplay_3.jpg"><img src="images/miniaturas_lightbox/gameplay_3.jpg" class="imagen_gameplay"></a>
+		</div>
+		<div id="seccion2_gameplay4" class="seccion2_gameplay">
+			<a data-fancybox="images" data-width="850" data-height="478" href="images/originales_lightbox/gameplay_4.jpg"><img src="images/miniaturas_lightbox/gameplay_4.jpg" class="imagen_gameplay"></a>
+		</div>
+	</div>
+	<div id="seccion3">
+		<div id="seccion3_titulo" class="seccion3_gamedemo">
+			<h1>Planetary Defence - Video Game - Demo</h1>
+		</div>
+		<div id="seccion3_videojuego"  class="seccion3_gamedemo">
+			<iframe src="game/index.html" id="iframe_game"></iframe>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.min.js"></script>
+</body>
+</html>
